@@ -27,6 +27,11 @@
     color: #6b6767;
 }
 
+.footer__map{
+    width: 350px;
+    height: 200px;
+}
+
 @media screen and (min-width:1024px){
     .main-footer{
         display: grid;
@@ -38,5 +43,10 @@
     .copy{
         grid-column-start: span 4;
         text-align: right;
+    }
+
+    .footer__map{
+        width: 800px ;
+        height: 300px;
     }
 }
